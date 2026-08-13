@@ -98,6 +98,9 @@ h1 em, h2 em { color: var(--muted); font-style: normal; font-weight: 430; }
 .card-kicker { margin: 2.5rem 0 .65rem; color: var(--accent-2); font-size: .68rem; text-transform: uppercase; letter-spacing: .14em; }
 .project-card h3 { font-size: 2rem; }
 .project-card > p:not(.card-kicker) { max-width: 340px; margin: 1rem 0 1.5rem; color: var(--muted); font-size: .92rem; }
+.card-links { display: flex; flex-wrap: wrap; gap: .55rem; margin: 0 0 1.4rem; position: relative; z-index: 1; }
+.card-links a { padding: .55rem .75rem; border: 1px solid var(--line); color: #d8d6df; font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; }
+.card-links a:hover { border-color: var(--accent-2); color: #fff; }
 .status { display: flex; align-items: center; gap: .55rem; margin-top: auto; color: #888691; font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; }
 .status i { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 12px var(--accent); }
 
@@ -129,6 +132,9 @@ h1 em, h2 em { color: var(--muted); font-style: normal; font-weight: 430; }
 .legal-meta { margin: 1.4rem 0 4rem; color: var(--muted); }
 .legal-main h2 { margin: 3rem 0 1rem; font-size: 1.45rem; letter-spacing: -.02em; }
 .legal-main p, .legal-main li { color: #b8b6bf; }
+.legal-main ul { margin: 1rem 0 1.5rem; padding-left: 1.3rem; }
+.legal-main li + li { margin-top: .7rem; }
+.legal-main strong { color: #e8e6ed; }
 .legal-main a { color: var(--accent-2); }
 .legal-note { margin-top: 4rem; padding: 1.2rem; border: 1px solid var(--line); background: var(--surface); color: var(--muted); }
 
